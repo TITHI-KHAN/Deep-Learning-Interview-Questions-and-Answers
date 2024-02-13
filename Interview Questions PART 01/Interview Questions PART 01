@@ -1,0 +1,23 @@
+01. **Can you explain the concept of hyper-parameters in deep learning models and provide examples of how they impact the performance of a model?**
+Answer: In deep learning, hyperparameters are settings that we choose before training our model. They control aspects of the training process and how the model learns.
+Examples and Impact on Model Performance:
+
+Learning Rate: It determines how much the model adjusts its parameters in response to the error it makes. If it's too high, the model might overshoot the optimal solution. If it's too low, it might take a long time to converge or get stuck in a local minimum.
+Batch Size: It determines the number of examples the model sees before updating its parameters. Larger batch sizes might make training faster but could lead to less generalization. Smaller batch sizes might make training slower but could lead to better generalization.
+Number of Epochs: It's the number of times the model sees the entire dataset during training. Too few epochs might result in underfitting, while too many might result in overfitting.
+Network Architecture: This includes the number of layers, the number of neurons in each layer, and the activation functions used. A good architecture is crucial for the model's performance.
+Optimizer Parameters: These parameters, like momentum and decay rates, affect how the model updates its parameters during training. Choosing the right optimizer and its parameters can significantly impact performance.
+
+In summary, hyperparameters play a vital role in the performance of deep learning models by influencing how they learn from data and how they generalize to new examples.
+
+02. Describe a situation where you had to choose between different activation functions for a neural network. Which did you choose and why?
+Answer:
+
+03. How do you approach the problem of overfitting in deep learning models, and can you discuss any specific techniques you've utilized in your projects or research?
+Answer:
+
+04. Describe an instance where you had to adjust learning rates for a deep learning model in a project. What were the challenges, and how did you resolve them?
+Answer:
+
+05.  How do you determine the appropriate batch size for training a neural network?
+Answer:
